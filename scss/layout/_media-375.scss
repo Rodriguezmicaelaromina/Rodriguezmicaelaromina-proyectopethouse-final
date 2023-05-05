@@ -1,0 +1,42 @@
+@media screen and (max-width: 375px) {
+    body {
+        background-color: black;
+    }
+
+    .boxes .box1,
+    .boxes .box2 {
+        border-radius: 5%;
+    }
+
+    .segundotitulo {
+        font-size: 1rem;
+    }
+
+    .button {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+.productos-container {
+    flex-direction: column;
+    text-align: center;
+}
+
+.producto {
+    margin-bottom: 20px;
+}
+
+.img-product {
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+button {
+    font-size: 0.8em;
+}

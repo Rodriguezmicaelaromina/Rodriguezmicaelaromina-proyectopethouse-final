@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+
+    color: white;
+    font-size: medium;
+    text-transform: uppercase;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+
+    .container-fluid {
+        border-radius: 5px;
+        background-color: #C1FAF0;
+    }
+
+    .navbar-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: small;
+    }
+
+    .navbar-toggle span {
+        display: block;
+        width: 5px;
+        height: 3px;
+        margin: 1px;
+        background-color: $color-principal;
+    }
+
+    .nav-item {
+        font-size: small;
+    }
+}

@@ -1,0 +1,141 @@
+.main {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    @include flex (row, nowrap, center, center)
+}
+
+.segundotitulo {
+    color: $color-principal;
+    background-color: $background-principal;
+    font-size: large;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0%;
+    height: 15%;
+
+}
+
+.boxes {
+    @include flex (row, nowrap, center, center);
+
+    .box1 {
+        width: 50%;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: $color-principal;
+        background-image: url(../assets/img/productosgatos.jpg);
+        background-size: cover;
+        text-align: center;
+    }
+
+    .box2 {
+        background-image: url(../assets/img/productosperros.jpg);
+        width: 50%;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: $color-principal;
+        background-size: cover;
+        text-align: center;
+    }
+}
+
+.button {
+    color: $color-principal;
+    border-radius: 10px;
+    font-size: x-large;
+    background-color: rgba(160, 156, 156, 0.496);
+    text-transform: uppercase;
+
+}
+
+.button:hover {
+    color: $color-principal;
+    background-color: $color-secundary;
+    border-radius: 10px;
+    font-size: x-large;
+
+}
+
+.div-descuentos {
+    @include flex (row, nowrap, space-between, center);
+    background-color: $background-principal;
+    color: $color-principal;
+    font-size: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    height: 1fr;
+}
+
+.boxes2 {
+    @include flex (row, wrap, center, center);
+    background-color: $color-secundary;
+    color: $color-principal;
+    height: auto;
+    align-content: stretch
+}
+
+.productos-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-secundary;
+}
+
+.producto {
+    flex: 1;
+    margin: 0 5px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+justify-content: space-evenly;
+}
+
+.img-product {
+    text-align: center;
+    position: relative;
+}
+
+
+.img-product img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;  
+    max-width: 100%;
+
+}
+
+.img-product>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+}
+
+.img-product h3 {
+    margin-top: 0;
+    color: $color-principal;
+}
+
+
+.img-product button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: $color-principal;
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.img-product button:hover {
+    background-color: #111a22;
+}

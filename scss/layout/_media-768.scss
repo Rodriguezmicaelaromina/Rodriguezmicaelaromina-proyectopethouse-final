@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+    
+    .navbar {
+      padding: 10px;
+    }
+    .segundotitulo {
+      font-size: 1.2rem;
+    }
+    .boxes .box1,
+    .boxes .box2 {
+      height: 200px;
+    }
+    .button {
+      font-size: 1rem;
+    }
+  }
+  
+  productos-container {
+    flex-wrap: wrap;
+  }
+
+  .producto {
+    width: 50%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: black;
+}

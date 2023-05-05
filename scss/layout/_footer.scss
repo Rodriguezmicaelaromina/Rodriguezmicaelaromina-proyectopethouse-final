@@ -1,0 +1,30 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: $color-principal;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $color-secundary;
+    color: $background-principal;
+}
+
+.social-icons a:hover {
+    background-color: $color-principal;
+    color: #333;
+}

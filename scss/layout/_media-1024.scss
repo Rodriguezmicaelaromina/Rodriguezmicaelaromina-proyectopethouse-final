@@ -1,0 +1,29 @@
+@media screen and (max-width: 1024px) {
+    .navbar {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .navbar .container-fluid {
+      border-radius: 0;
+    }
+    .navbar .navbar-collapse {
+      margin-top: 10px;
+    }
+    .boxes {
+      flex-direction: column;
+      align-items: center;
+    }
+    .boxes .box1,
+    .boxes .box2 {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 10px;
+    }
+    .segundotitulo {
+      font-size: 1.5rem;
+    }
+    .button {
+      font-size: 1.2rem;
+    }
+  }
