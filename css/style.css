@@ -56,6 +56,10 @@
   height: 15%;
 }
 
+.error404 {
+  color: white;
+}
+
 .boxes {
   display: flex;
   flex-direction: row;

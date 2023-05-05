@@ -16,6 +16,9 @@
 
 }
 
+ .error404{
+    color: white;
+}
 .boxes {
     @include flex (row, nowrap, center, center);
 
